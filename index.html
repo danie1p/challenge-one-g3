@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciptador y desifrador: Challenge One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <h1>
+                <img src="./static/img/Logo.png" alt="Alura logo" class="logo">
+            </h1>
+        </header>
+        <section class="entrada">
+            <textarea name="txt-encriptar" placeholder="Ingrese el texto aqui" id="txt-encriptar" class="txt-area" rows="3" cols="20"></textarea>
+            <div class="entrada-items margin-top">
+                <figure class="mostrar_enlinea warning">
+                    <img src="./static/img/gray_warning.png" alt="Ico para denotar una nota importante" class="right">
+
+                  <figcaption class="left">Solo letras minusculas y sin acento<figcaption>
+
+                </figure>
+                <div class="mostrar_enlinea">
+                  <button class="btn" id="btnEncriptar">Encriptar</button>
+                  <button class="btn btn-white" id="btnDesencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="resultado">
+          <div class="txt-resultado">
+            <textarea name="txt-resultado" id="txt-resultado" rows="100" cols="20" disabled></textarea>
+          </div>
+          <div id="ocultar-figure">
+            <div id="muneco"></div>
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p class="p">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button type="button" name="button" id="btnCopiarTexto" class="btn btn-white">Copiar</button>
+          </div>
+        </section>
+    </div>
+    <script src="./static/js/main.js">
+
+    </script>
+</body>
+</html>

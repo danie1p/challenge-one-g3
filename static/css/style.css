@@ -1,0 +1,194 @@
+html {
+
+    font-size: 6.5px;
+
+}
+.logo {
+  width: 75%;
+}
+.main {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+}
+.header {
+
+    width: 10%;
+
+}
+.entrada {
+
+    margin-top: 5rem;
+    width: 40%;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.entrada textarea {
+
+    width: 100%;
+    height: 96rem;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: #E5E5E5;
+    resize: none;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 4rem;
+    text-align: center;
+    color: #0A3871; 
+
+}
+.entrada textarea::placeholder {
+
+  text-align: center;
+  font-size: 3rem;
+  color: #0A3871;
+
+}
+.mostrar_enlinea {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+.warning {
+
+  font-size: 1.4rem;
+
+}
+.left {
+
+  margin-left: 0.5rem;
+
+}
+.right {
+
+  margin-right: 0.5rem;
+
+}
+.btn {
+
+  background: #0A3871;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  margin: 0.5rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  color: #fff;
+
+}
+.btn-white {
+
+  color: #0A3871;
+  background: #fff;
+  border: 2px solid #0A3871;
+
+}
+
+.margin-top {
+
+  margin-top: 17.5rem;
+
+}
+.resultado {
+
+    width: 30%;
+    height: 130rem;
+    border: 0.1rem solid skyblue;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+
+
+}
+.txt-resultado {
+
+
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 400;
+
+}
+#txt-resultado {
+
+  width: 100%;
+  height: 50rem;
+  resize: none;
+  border: none;
+  background: #fff;
+  font-size: 6rem;
+  overflow: hidden;
+
+}
+#muneco {
+
+  width: 100%;
+  height: 60rem;
+  background-image: url("../img/muneco.png");
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  margin: 3rem auto;
+
+}
+.resultado h2 {
+
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+
+}
+.resultado p {
+
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+
+}
+#btnCopiarTexto {
+
+  margin-top: 26.25rem;
+  display: block;
+  margin: 0 auto;
+
+}
+@media all and (max-width: 768px) {
+
+  html {
+
+    font-size: 5px;
+
+  }
+
+}
+
+@media all and (max-width: 576px) {
+
+  html {
+
+    font-size: 4px;
+
+  }
+
+}
+
+@media all and (max-width: 384px) {
+
+  html {
+
+    font-size: 3px;
+
+  }
+
+}
